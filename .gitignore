@@ -1,0 +1,28 @@
+
+# python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+# model weights
+*.pth
+*.pt
+*.ckpt
+
+# slurm scripts
+*.slurm
+
+# logs
+*.out
+*.err
+
+# common training outputs
+runs/
+logs/
+output/
+wandb/
+tensorboard/
+
+# model directories if they store checkpoints/results
+model/
